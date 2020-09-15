@@ -1,0 +1,11 @@
+---
+:tree:
+  output/.ipynb_checkpoints//: 
+  output//: 
+  output/untitled.txt:
+    :sha1: 99fedc56e80717d0c5d3a9a34653f392b2d2484e
+    :commit_time: '2020-09-15T03:39:18.733Z'
+  output/.ipynb_checkpoints/untitled-checkpoint.txt:
+    :sha1: 99fedc56e80717d0c5d3a9a34653f392b2d2484e
+    :commit_time: '2020-09-15T03:39:18.733Z'
+:commit: 05a8ea5382b9fd885261bb3eed0527d1d3b07262
