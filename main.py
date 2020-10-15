@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import json
 import os
 
+print(os.getcwd())
 # Print to console/stdout
 print("Hello, from Domino {0}!".format(os.environ['DOMINO_PROJECT_OWNER']))
 
