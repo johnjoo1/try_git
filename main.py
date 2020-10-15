@@ -7,7 +7,7 @@ import json
 import os
 
 # Print to console/stdout
-print("Hello, {0}!".format(os.environ['DOMINO_PROJECT_OWNER']))
+print("Hello, from Domino {0}!".format(os.environ['DOMINO_PROJECT_OWNER']))
 
 
 # Define a helper function to generate a random number
