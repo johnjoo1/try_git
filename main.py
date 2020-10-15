@@ -21,7 +21,7 @@ x = random.sample(range(1000), 100)
 xbins = [0, len(x)]
 plt.bar(range(0, 100), x)
 plt.show()
-plt.savefig('results/myHistogramFromPython.png', format='png')
+plt.savefig('/mnt/artifacts/git-private-ssh/results/myHistogramFromPython.png', format='png')
 
 # Generate and save some key statistics to dominostats.json
 #   learn more at http://support.dominodatalab.com/hc/en-us/articles/204348169
