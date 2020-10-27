@@ -1,7 +1,9 @@
 import shutil
-import os
 import demo
 
+src = "/domino/nfs/{}/iris.csv".format(demo.edv1)
+dst = "/mnt/artifacts/{}/iris.csv".format(demo.project_name)
 
+shutil.copyfile(src, dst)
 
-shutil.copyfile("/domino/nfs/{}/iris.csv".format(demo.edv1), "/mnt/artifacts/{}/iris.csv".format(demo.project_name))
+print("copied {} to {}".format(src, dst))

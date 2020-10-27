@@ -1,4 +1,8 @@
 import shutil
 import demo
 
-shutil.copyfile("/mnt/datasets/my_dataset/latest/iris.csv", "/domino/nfs/{}/iris.csv".format(demo.edv1)
+target = "/domino/nfs/{}/iris.csv".format(demo.edv1)
+
+shutil.copyfile("/mnt/datasets/my_dataset/latest/iris.csv", target)
+
+print("wrote to {}".format(target))
