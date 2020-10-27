@@ -1,3 +1,4 @@
 import shutil
+import demo
 
-shutil.copyfile("/mnt/artifacts/git-private-ssh/iris.csv", "/domino/nfs/test2/iris.csv")
+shutil.copyfile("/mnt/artifacts/{}/iris.csv".format(demo.project_name), "/domino/nfs/{}/iris.csv".format(demo.edv2))
