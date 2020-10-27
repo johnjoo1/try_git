@@ -1,0 +1,3 @@
+Glucose: 120
+Blood Pressure: 70
+BMI: 32
