@@ -16,7 +16,7 @@ DEFAULT_WRITE_FILE = None
 DEFAULT_WRITE_FILE_CONTENTS = "Hello World"
 
 # Settings for log file written to running file system
-DIR_LOG = "/mnt"
+DIR_LOG = "/mnt/artifacts/diabetes-prediction-gbp"
 LOG_FILE = "check-mounts.log"
 
 class Logger:
