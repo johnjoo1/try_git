@@ -31,10 +31,12 @@ vec_str_log <- c(
   paste("Prediction:", prediction, sep=" ")
 )
 
+print(vec_str_log)
+
 f <-file(file.path(dir_fullpath, paste(Sys.getenv("DOMINO_RUN_ID"),".log",sep="")))
 writeLines(vec_str_log, f)
 close(f)
 
-f <-file("output.log")
+f <-file("/mnt/artifacts/diabetes-prediction-gbp/output.log")
 writeLines(vec_str_log, f)
 close(f)
