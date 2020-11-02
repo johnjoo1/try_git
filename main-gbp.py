@@ -29,5 +29,5 @@ plt.savefig('/mnt/artifacts/' + artifacts_subdir + '/myHistogramFromPython.png',
 #   learn more at http://support.dominodatalab.com/hc/en-us/articles/204348169
 r2 = round(random_number(0, 1), 4)
 p = round(random_number(0, 1), 4)
-with open('/mnt/artifacts/' + artifacts_subdir + '/dominostats.json', 'w') as f:
+with open('/mnt/artifacts/' + '/dominostats.json', 'w') as f:
     f.write(json.dumps({"R^2": r2, "p-value": p}))
