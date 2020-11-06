@@ -16,4 +16,4 @@ for i,part in enumerate(sys.argv[4].split(",")):
     print(part)
     
 print("arg 5 date:"+sys.argv[5])
-print("arg 5 checkbox:"+sys.argv[6])
+print("arg 6 checkbox:"+sys.argv[6])
