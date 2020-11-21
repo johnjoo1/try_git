@@ -1,6 +1,1 @@
-<<<<<<< HEAD
-hello chris3
-=======
-hello chris
-s
->>>>>>> fdsafdsa
+chris - 13
