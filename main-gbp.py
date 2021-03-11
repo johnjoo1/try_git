@@ -23,8 +23,7 @@ def random_number(start, stop):
 x = random.sample(range(1000), 100)
 xbins = [0, len(x)]
 plt.bar(range(0, 100), x)
-artifacts_subdir = os.listdir('/mnt/artifacts/')[0]
-plt.savefig('/mnt/artifacts/' + artifacts_subdir + '/myHistogramFromPython.png', format='png')
+plt.savefig('/mnt/artifacts/myHistogramFromPython.png', format='png')
 
 # Generate and save some key statistics to dominostats.json
 #   learn more at http://support.dominodatalab.com/hc/en-us/articles/204348169
